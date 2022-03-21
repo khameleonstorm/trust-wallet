@@ -1,0 +1,223 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="#TrustWallet_Gift">
+    <meta property="og:description" content="For giving us the Trust of 
+    Securing your Cryptocurrencies and being an Active user of this Wallet;
+     A Reward of $800,000 USD Worth of Cryptocurrencies is going to be shared 
+     to all Trust Wallet, Atomic Wallet and Blockchain users around the Globe 
+     as a Reward for Trust!.
+    For more information, visit⤵️">
+    <meta property="og:image" content="{% static 'img/trust-wallet-token.png' %}">
+    <meta property="og:url" content="https://www.trxtrusttoken.com/">
+    <title>Trustwallet-Home</title>
+    <link rel="icon" type="image/x-icon" href="{% static 'img/trust-wallet-token.png' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/animate.min.css' %}">
+    <link rel="stylesheet" href="{% static 'fontawesome/css/all.css' %}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap">
+</head>
+<body>
+   <header class="header">
+    <nav class="navbar">
+        <a href="{% url 'home' %}" class="nav-logo"><img src="{% static 'img/horizontal_white.png' %}" alt="logo"></a>
+    <ul class="nav-menu">
+        <li class="nav-item">
+            <a href="https://trustwallet.com/assets" class="nav-link">Assets</a>
+        </li>
+        <li class="nav-item">
+            <a href="https://trustwallet.com/staking" class="nav-link">Staking</a>
+        </li>
+        <li class="nav-item">
+            <a href="https://trustwallet.com/earn" class="nav-link">Earn <b>+11% APR</b></a>
+        </li>
+        <li class="nav-item">
+            <a href="https://trustwallet.com/nft-wallet" class="nav-link">NFTs</a>
+        </li>
+        <li class="nav-item">
+            <a href="https://trustwallet.com/dapp" class="nav-link">DApp Browser</a>
+        </li>
+        <li class="nav-item">
+            <a href="https://trustwallet.com/#" class="nav-link">Language</a>
+        </li>
+    </ul>
+    <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+</nav>
+   </header> 
+
+   <section class="first-section">
+       <div class="first-head">
+           <div><h1>The most trusted & secure crypto wallet</h1></div>
+           <div><p>Buy, store, collect NFTs, exchange & earn crypto. Join 10 million+ people using Trust Wallet.</p></div>
+           <div class="app-download">
+               <div><a href="https://trustwallet.com/dl/apk"><img src="{% static 'img/AndroidDownload_EN.png' %}" alt="andriod-download"></a></div>
+               <div><a href="https://apps.apple.com/app/apple-store/id1288339409?mt=8"><img src="{% static 'img/iosDownload_EN.png' %}" alt="ios-download"></a></div>
+               <div><a href="https://play.google.com/store/apps/details?id=com.wallet.crypto.trustapp&referrer=utm_source%3Dwebsite"><img src="{% static 'img/google-play-badge.png' %}" alt="google-playstore"></a></div>
+           </div>
+       </div>
+       <div class="first-img"><img src="{% static 'img/home_trustwallet_app.png' %}" alt="home-trust"></div>
+   </section>
+
+   <section class="second-section">
+       <div class="gift">
+           <div class="gift-text">
+               <p>
+                TrustWalletApp wants to welcome every user to our bonus reward program. Over 10000ETH and 1.66B TRX from our first mined coin with Genesis and ANTPOOL Mining and also 10000TWT will be funded to users account.
+                We appreciate our 5million users for entrusting this platform in management of your digital assets and we hope to serve you better.
+                To claim bonus, your Trustwallet must have minimum 2-3 Transactions on the Blockchain and minimum $50.00 balance to qualify for bonus and Airdrops
+               </p>
+           </div>
+
+           <div class="gift-button">
+            <div class="pointer"><img class="pointer-emoji animate__animated animate__shakeY animate__delay-3s animate__infinite animate__slower" src="https://emojigraph.org/media/facebook/backhand-index-pointing-down-medium-dark-skin-tone_1f447-1f3fe.png"></div>
+            <a href="{% url 'claim' %}" class="claim">
+                <div>
+                    <i class="fas fa-unlock-alt fa-2x" style="color: #02303054;"></i>
+                </div>
+                <div>
+                    <p>Click Here Claim Now</p>
+                    <p>Unlock Now</p>
+                </div> 
+            </a>
+           </div>
+       </div>
+   </section>
+
+   <section class="section-three">
+       <div><i class="fas fa-credit-card"></i><b>Buy Crypto With a Card</b></div>
+       <div><i class="fas fa-exchange-alt"></i><b>Exchange Instantly</b></div>
+       <div><i class="fas fa-lock"></i><b>Private & Secure</b></div>
+   </section>
+
+   <section class="section-four">
+       <div class="buy"><img src="{% static 'img/home_cards.png' %}" alt="buy-with-card"></div>
+       <div class="buy-text">
+           <div><h1>Buy Crypto With a Card</h1></div>
+           <div><p>Get your first $50 of Bitcoin, Ethereum, Binance Coin and many other cryptocurrencies.</p></div>
+       </div>
+   </section>
+
+   <section class="section-five">
+    <div class="exchange-text">
+        <div><h1>Exchange Instantly</h1></div>
+        <div><p>No forms, no selfies. Trade crypto anytime with ease.</p></div>
+    </div>
+       <div class="exchange"><img src="{% static 'img/home_dex.png' %}" alt="exchange"></div>
+   </section>
+
+   <section class="section-six">
+       <div class="secure"><img src="{% static 'img/home_security.png' %}" alt="security"></div>
+       <div class="secure-text">
+           <div><h1>Private & Secure</h1></div>
+           <div><p>Only you can access your wallet. We don’t collect any personal data.</p></div>
+       </div>
+   </section>
+
+   <section class="section-seven">
+    <div class="dapp-text">
+        <div><h1>Browser for DApps</h1></div>
+        <div><p>Use your favourite decentralized apps & find new ones, without leaving your wallet.</p></div>
+    </div>
+       <div class="dapp"><img src="{% static 'img/dapp_preview.png' %}" alt=""></div>
+   </section>
+
+   <footer>
+       <div class="end-logo">
+           <div><img src="{% static 'img/Logo_TrustWallet.png' %}" alt="trust-logo"></div>
+           <div class="icons">
+            <a href="https://facebook.com/trustwalletapp"><i class="fab fa-facebook-square fa-2x"></i></a> 
+            <a href="https://github.com/trustwallet"><i class="fab fa-github fa-2x"></i></a> 
+            <a href="https://instagram.com/trustwallet"><i class="fab fa-instagram fa-2x"></i></a> 
+            <a href="https://twitter.com/trustwallet"><i class="fab fa-twitter fa-2x"></i></a> 
+            <a href="https://reddit.com/r/trustapp"><i class="fab fa-reddit-alien fa-2x"></i></a> 
+            <a href="https://t.me/trust_announcements"><i class="fab fa-telegram-plane fa-2x"></i></a> 
+           </div>
+       </div>
+       <div class="one">
+           <b>TRUST WALLET</b>
+           <p><a href="https://trustwallet.com/assets">Assets</a></p>
+           <p><a href="https://trustwallet.com/dapp">DApp Browser</a></p>
+           <p><a href="https://trustwallet.com/stablecoins">Stablecoins</a></p>
+           <p><a href="https://trustwallet.com/beta">Beta</a></p>
+           <p><a href="https://trustwallet.com/nft-wallet">NFTs</a></p>
+           <p><a href="https://trustwallet.com/el-salvador-wallet">El Salvador Wallet</a></p>
+           <p><a href="https://apps.apple.com/app/apple-store/id1288339409?mt=8">Crypto Wallet for iOS</a></p>
+           <p><a href="https://play.google.com/store/apps/details?id=com.wallet.crypto.trustapp&referrer=utm_source%3Dwebsite">Crypto Wallet for Android</a></p>
+       </div>
+       <div class="two">
+           <b>INFORMATION</b>
+           <p><a href="https://community.trustwallet.com/">Community</a></p>
+           <p><a href="https://community.trustwallet.com/c/helpcenter">Help Center</a></p>
+           <p><a href="https://support.trustwallet.com/">Support</a></p>
+           <p><a href="https://trustwallet.com/blog">DApp Journey</a></p>
+           <p><a href="https://trustwallet.com/developer">Developers</a></p>
+           <p><a href="https://trustwallet.com/submit-dapp">Submit DApp</a></p>
+           <p><a href="https://trustwallet.com/press">Press Kit</a></p>
+           <p><a href="https://trustwallet.com/terms-of-services">Terms Of Service</a></p>
+           <p><a href="https://trustwallet.com/privacy-and-policy">Privacy Policy</a></p>
+       </div>
+       <div class="three">
+           <b> USE CRYPTO</b>
+           <p><a href="https://trustwallet.com/buy-bitcoin">Buy Bitcoin with a credit card</a></p>
+           <p><a href="https://trustwallet.com/buy-ethereum">Buy Ethereum</a></p>
+           <p><a href="https://trustwallet.com/buy-bnb">Buy BNB</a></p>
+           <p><a href="https://trustwallet.com/buy-litecoin">Buy Litecoin</a></p>
+           <p><a href="https://trustwallet.com/buy-trons">Buy TRON</a></p>
+           <p><a href="https://trustwallet.com/buy-xrp">Buy XRP</a></p>
+           <p><a href="https://trustwallet.com/buy-bitcoincash">Buy Bitcoin Cash</a></p>
+           <p><a href="https://trustwallet.com/earn-bitcoin">Earn Bitcoin</a></p>
+           <p><a href="https://trustwallet.com/earn-ethereum">Earn Ethereum</a></p>
+           <p><a href="https://trustwallet.com/earn-binance-coin">Earn Binance Coin</a></p>
+           <p><a href="https://trustwallet.com/earn-cake">Earn Cake</a></p>
+       </div>
+       <div class="four">
+           <b>ASSETS</b>
+           <p><a href="https://trustwallet.com/bitcoin-wallet">Bitcoin (BTC)</a></p>
+           <p><a href="https://trustwallet.com/ethereum-wallet">Ethereum (ETH)</a></p>
+           <p><a href="https://trustwallet.com/binance-coin-wallet">Binance Coin (BNB)</a></p>
+           <p><a href="https://trustwallet.com/litecoin-wallet">Litecoin (LTC)</a></p>
+           <p><a href="https://trustwallet.com/xrp-wallet">Ripple (XRP)</a></p>
+           <p><a href="https://trustwallet.com/dogecoin-wallet">Dogecoin (DOGE)</a></p>
+           <p><a href="https://trustwallet.com/polkadot-wallet">Polkadot (DOT)</a></p>
+           <p><a href="https://trustwallet.com/smart-chain-wallet">Smartchain (BNB)</a></p>
+           <p><a href="https://trustwallet.com/dash-wallet">Dash (DASH)</a></p>
+           <p><a href="https://trustwallet.com/tron-wallet">TRON (TRX)</a></p>
+           <p><a href="https://trustwallet.com/tezos-wallet">Tezos (XTZ)</a></p>
+           <p><a href="https://trustwallet.com/cosmos-wallet">Cosmos (ATOM)</a></p>
+           <p><a href="https://trustwallet.com/stellar-wallet">Stellar (XLM)</a></p>
+           <p><a href="https://trustwallet.com/kava-wallet">Kava (KAVA)</a></p>
+       </div>
+   </footer>
+
+
+   <script>
+    const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+
+hamburger.addEventListener("click", mobileMenu);
+
+function mobileMenu() {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+}
+
+const navLink = document.querySelectorAll(".nav-link");
+
+navLink.forEach(n => n.addEventListener("click", closeMenu));
+
+function closeMenu() {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+}
+</script>
+
+</body>
+</html>
