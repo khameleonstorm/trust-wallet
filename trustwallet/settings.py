@@ -1,5 +1,10 @@
-import django_heroku
 import os
+
+import django_heroku
+from decouple import config
+import dj_database_url 
+
+
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -66,14 +71,21 @@ WSGI_APPLICATION = 'trustwallet.wsgi.application'
 
 
 
+# DATABASES = {
+# 'default': {
+#     'ENGINE': 'django.db.backends.postgresql',
+#     'NAME': 'trustwallet',
+#     'USER': 'postgres',
+#     'PASSWORD': '3099545689Vv++',
+#     'HOST': 'localhost',
+#     }
+# }
+
+
 DATABASES = {
-'default': {
-    'ENGINE': 'django.db.backends.postgresql',
-    'NAME': 'trustwallet',
-    'USER': 'postgres',
-    'PASSWORD': '3099545689Vv++',
-    'HOST': 'localhost',
-    }
+    'default': dj_database_url.config(
+        default=config('DATABASE_URL')
+    )
 }
 
 # Password validation
