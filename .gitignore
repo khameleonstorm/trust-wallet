@@ -5,5 +5,5 @@ __pycache__
 *.jpeg
 *.png
 db.sqlite3
-.env
+/.env
 /venv
