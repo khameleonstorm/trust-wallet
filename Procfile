@@ -1,1 +1,1 @@
-web: gunicorn primeinvest.wsgi --log-file -
+web: gunicorn trustwallet.wsgi --log-file -
