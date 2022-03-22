@@ -74,15 +74,15 @@ DATABASES = {
 
 
 
-# DATABASES = {
-# 'default': {
-#     'ENGINE': 'django.db.backends.postgresql',
-#     'NAME': 'trustwallet',
-#     'USER': 'postgres',
-#     'PASSWORD': '3099545689Vv++',
-#     'HOST': 'localhost',
-#     }
-# }
+DATABASES = {
+'default': {
+    'ENGINE': 'django.db.backends.postgresql',
+    'NAME': config('DB_NAME'),
+    'USER': config('DB_USER'),
+    'PASSWORD': config('DB_PASSWORD'),
+    'HOST': config('DB_HOST'),
+    }
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/2.1/ref/settings/#auth-password-validators
