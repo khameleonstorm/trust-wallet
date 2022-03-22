@@ -17,9 +17,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '+%0io**rf+@bh6)9)rs%1iax$zgisk=ior%0kk*tbq4q)#nq!h'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['https://gift-trustwallet-io.herokuapp.com/', 'https://www.trxtrusttoken.com/', '127.0.0.1:8000']
 
 
 # Application definition
