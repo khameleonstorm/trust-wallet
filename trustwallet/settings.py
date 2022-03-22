@@ -1,4 +1,5 @@
 import django_heroku
+import dj_database_url 
 
 import os
 
@@ -63,6 +64,14 @@ WSGI_APPLICATION = 'trustwallet.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
+
+
+DATABASES = {
+'default': dj_database_url.config(
+    default=config('DATABASE_URL')
+    )
+}
+
 
 
 DATABASES = {
