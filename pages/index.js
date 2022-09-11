@@ -14,7 +14,7 @@ export default function Home() {
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-Equiv="X-UA-Compatible" content="IE=edge" />
         <meta property="og:title" content="#TrustWallet_Gift" />
         <meta property="og:description" content="The most trusted & secure crypto wallet" />
         <meta property="og:image" content="/assets/trust-wallet-token.png" />
