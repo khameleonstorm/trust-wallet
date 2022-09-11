@@ -4,7 +4,7 @@ import logo from "../public/assets/horizontal_white.png";
 import { useState } from "react";
 
 export default function Navbar() {
-    const [showMenu, setShowMenu] = useState(true)
+    const [showMenu, setShowMenu] = useState(false)
 
     const handleClick = () => {
         setShowMenu(!showMenu)

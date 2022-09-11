@@ -80,6 +80,7 @@
   flex-direction: column;
   z-index: 100;
   transition: all ease-in-out .5s;
+  font-size: .8rem;
 }
 
 .navmenu b{
