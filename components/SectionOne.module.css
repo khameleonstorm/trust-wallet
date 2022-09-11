@@ -1,0 +1,55 @@
+
+.container{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 220px;
+  font-size: 1.3rem;
+  margin-bottom: 50px;
+}
+
+.container div{
+  display: flex;
+  align-items: center;
+}
+
+.container b{
+  font-size: .9rem;
+}
+
+.container svg{
+  color: #1264bbfd;
+  padding-right: 10px;
+  font-size: 1.8rem;
+}
+
+
+
+
+@media only screen and (max-width: 1100px) {
+
+.container{
+  padding: 20px 50px;
+}
+
+}
+
+
+@media only screen and (max-width: 900px) {
+
+.container{
+  padding: 20px 50px;
+}
+
+}
+
+
+@media only screen and (max-width: 700px) {
+
+.container{
+  flex-direction: column;
+  gap: 20px;
+}
+
+}

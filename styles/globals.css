@@ -1,0 +1,182 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+@font-face {
+  font-family: 'big_blue';
+  src: url('../public/webfontkit/big_blue_bold-webfont.woff2') format('woff2'),
+       url('../public/webfontkit/big_blue_bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'cartline';
+  src: url('../public/webfontkit/cartlinebrush-wy2ae-webfont.woff2') format('woff2'),
+       url('../public/webfontkit/cartlinebrush-wy2ae-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'mirador';
+  src: url('../public/webfontkit/rene_bieder_-_mirador_book_demo-webfont.woff2') format('woff2'),
+       url('../public/webfontkit/rene_bieder_-_mirador_book_demo-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'raginy';
+  src: url('../public/webfontkit/raginyregular-mvler-webfont.woff2') format('woff2'),
+       url('../public/webfontkit/raginyregular-mvler-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'fashion';
+  src: url('../public/webfontkit/fashionstencilregular-0wyj4-webfont.woff2') format('woff2'),
+       url('../public/webfontkit/fashionstencilregular-0wyj4-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'trinidad_neue_blackregular';
+  src: url('../public/webfontkit/trinidad_neue_black-webfont.woff2') format('woff2'),
+       url('../public/webfontkit/trinidad_neue_black-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'trinidad_neue_mediumregular';
+  src: url('../public/webfontkit/trinidad_neue_medium-webfont.woff2') format('woff2'),
+       url('../public/webfontkit/trinidad_neue_medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'trinidad_neue_regularregular';
+  src: url('../public/webfontkit/trinidad_neue_regular-webfont.woff2') format('woff2'),
+       url('../public/webfontkit/trinidad_neue_regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'isidora_sans_altblack';
+  src: url('../public/webfontkit/isidorasansalt-black-webfont.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'isidora_sans_alt_boldbold';
+  src: url('../public/webfontkit/isidorasansalt-bold-webfont.woff2') format('woff2');
+  font-weight: normal;
+ font-style: normal;
+}
+
+@font-face {
+  font-family: 'isidora_sans_boldbold';
+  src: url('../public/webfontkit/isidorasans-bold-webfont.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'isidora_sans_bold_italicBdIt';
+  src: url('../public/webfontkit/isidorasans-bolditalic-webfont.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'isidora_sansbold';
+  src: url('../public/webfontkit/isidorasans-regular-webfont.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'rosinabold';
+  src: url('../public/webfontkit/fontspring-demo-rosina-bold-webfont.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'fontspring_demo_-_rosinaRg';
+  src: url('../public/webfontkit/fontspring-demo-rosina-regular-webfont.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'rosinaultrabold';
+  src: url('../public/webfontkit/fontspring-demo-rosina-ultrabold-webfont.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'montonbold';
+  src: url('../public/webfontkit/monton_bold-webfont.woff2') format('woff2'),
+       url('../public/webfontkit/monton_bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'montonextrabold';
+  src: url('../public/webfontkit/monton_extra_bold-webfont.woff2') format('woff2'),
+       url('../public/webfontkit/monton_extra_bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'harper_boldbold';
+  src: url('../public/webfontkit/harper-webfont.woff2') format('woff2'),
+       url('../public/webfontkit/harper-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+html,
+body {
+  width: 100%;
+  font-family: 'trinidad_neue_regularregular';
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
